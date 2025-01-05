@@ -6,39 +6,36 @@ function Experiences() {
   return (
     <>
       <Navbar />
-      <div className="timelines">
-        <h2>Education</h2>
-        <div className="timeline">
-          <div className="timeline-middle">
+      <div className="timeline">
+        <div className="container">
+          <div className="text-box left-container">
+            <h3>National University of Singapore</h3>
+            <small>2024 - 2028</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque tincidunt finibus. Sed vel urna ut ex venenatis vulputate. Sed nec erat eu nulla semper lobortis at eget leo. Aliquam erat volutpat.</p>
+          </div>
 
-            <div className="event" id="nus">
-              <div className="event-marker"></div>
-              <div className="event-text">
-                <p className="event-title">National University of Singapore</p>
-                <p className="event-year">2024 - 2028</p>
-                <div className="event-description">
-                  Currently studying Double Major in Computer Science and Mathematics.
-                  <p>Courses taken:</p>
-                  <ul>
-                    <li>CS1101S Programming Methodology I (A)</li>
-                    <li>CS1231S Discrete Structures (A+)</li>
-                    <li>MA1522 Linear Algebra for Computing (A+)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <div className="text-box right-container">
+            <h3>Product Intern</h3>
+            <small>Apr - Jul 2024</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque tincidunt finibus. Sed vel urna ut ex venenatis vulputate. Sed nec erat eu nulla semper lobortis at eget leo. Aliquam erat volutpat.</p>
+          </div>
 
-            <div className="event" id="njc">
-              <div className="event-marker"></div>
-              <div className="event-text">
-                <p className="event-title">National Junior College</p>
-                <p className="event-year">2016 - 2021</p>
-                <div className="event-description">
-                  <p>Completed a 6-year IP programme.</p>
-                  <p>GCE 'A' Levels: H2 Mathematics, H2 Chemistry, H2 Physics, H1 Economics (88.75 RP)</p>
-                </div>
-              </div>
-            </div>
+          <div className="text-box right-container">
+            <h3>Artillery Operator</h3>
+            <small>Mar 2022 - Mar 2024</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque tincidunt finibus. Sed vel urna ut ex venenatis vulputate. Sed nec erat eu nulla semper lobortis at eget leo. Aliquam erat volutpat.</p>
+          </div>
+
+          <div className="text-box right-container">
+            <h3>MOE Teaching Intern</h3>
+            <small>Jan - Mar 2022</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque tincidunt finibus. Sed vel urna ut ex venenatis vulputate. Sed nec erat eu nulla semper lobortis at eget leo. Aliquam erat volutpat.</p>
+          </div>
+
+          <div className="text-box left-container">
+            <h3>National Junior College</h3>
+            <small>2016 - 2021</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           </div>
         </div>
       </div>
