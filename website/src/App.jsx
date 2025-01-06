@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../styles/index.css";
+import "./styles/index.css";
 import Navbar from './components/Navbar';
 import Intro from "./components/Intro";
 import Section from "./components/Section";

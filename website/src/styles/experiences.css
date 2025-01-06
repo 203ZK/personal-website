@@ -15,7 +15,7 @@ nav.navbar {
     vertical-align: middle;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav-link {
@@ -31,15 +31,40 @@ nav.navbar {
     font-weight: bold;
 }
 
+.timeline-headings {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 45px;
+}
+
+.heading {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
 /* Timeline styling */
 .timeline {
     position: relative;
     max-width: 800px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .container {
+    margin-top: 30px;
     width: 50%;
+}
+
+.container::after {
+    position: absolute;
+    content: "";
+    background: black;
+    width: 6px;
+    height: 120%;
+    top: -20%;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
 }
 
 .text-box {
@@ -50,8 +75,14 @@ nav.navbar {
     margin-bottom: 20px;
 }
 
+p.description {
+    font-style: italic;
+    color: rgb(80, 80, 80);
+}
+
 .left-container {
     left: 0;
+    margin-left: 20px;
     margin-right: 30px;
 }
 
@@ -65,13 +96,25 @@ nav.navbar {
     height: 15px;
     border-radius: 100%;
     top: calc(50% - 12px);
-    left: calc(100% + 19px);
-    z-index: 1;
+    left: calc(100% + 19.5px);
+    z-index: 2;
+}
+
+.left-arrow {
+    position: absolute;
+    left: calc(100% + 3.5px);
+    top: calc(50% - 13px);
+    height: 0;
+    width: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(0, 63, 126);
 }
 
 .right-container {
     left: 100%;
     margin-left: 30px;
+    margin-right: 20px;
 }
 
 .right-container::before {
@@ -84,18 +127,17 @@ nav.navbar {
     height: 15px;
     border-radius: 100%;
     top: calc(50% - 12px);
-    right: calc(100% + 19px);
-    z-index: 1;
+    right: calc(100% + 19.5px);
+    z-index: 2;
 }
 
-.container::after {
+.right-arrow {
     position: absolute;
-    content: "";
-    background: black;
-    width: 6px;
-    height: 100%;
-    top: 0;
-    left: 50%;
-    margin-left: -3px;
+    right: calc(100% + 3.5px);
+    top: calc(50% - 13px);
+    height: 0;
+    width: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid rgb(0, 63, 126);
 }
-
