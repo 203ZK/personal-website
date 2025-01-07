@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 12vh;
+    max-height: 60px;
+    background-color: rgb(0, 63, 126);
+    font-size: min(2.5vw, 20px);
+}
+
+span {
+    margin: auto;
+    transition: text-decoration 100ms ease;
+}
+
+span:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

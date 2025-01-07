@@ -2,23 +2,27 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import App from './App.jsx'
-import Experiences from "./components/Experiences.jsx"
-import Projects from './components/Projects.jsx'
+import HomePage from './components/pages/HomePage.jsx'
+import Experiences from "./components/pages/Experiences.jsx"
+import Projects from './components/pages/Projects.jsx'
+import Flip from './components/Flip.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <HomePage />
   },
   {
-    path: "/education-and-experiences",
+    path: "education-and-experiences",
     element: <Experiences />
   },
-  {
-    path: "/projects",
-    element: <Projects />
-  }
+  { path: "projects",
+    element: <Projects /> },
+  { 
+    path: "projects/flip", 
+    element: <Flip /> 
+  },
+  
 ]);
 
 createRoot(document.getElementById('root')).render(

@@ -1,0 +1,23 @@
+.project {
+    margin: 0 auto;
+}
+
+.thumbnail {
+    max-width: 250px;
+    max-height: 200px;
+    transition: all 200ms ease;
+    transition-property: max-width, max-height;
+}
+
+.thumbnail:hover {
+    max-width: 260px;
+    max-height: 210px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.projectTitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}

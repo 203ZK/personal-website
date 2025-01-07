@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
+import styles from "../styles/navbar.module.css";
 
 function Navbar() {
     return (
-        <nav className="navbar">
-            <span className="nav-link"><a href="/" id="my-name">Peh Hou Jin</a></span>
-            <span className="nav-link"><a href="/education-and-experiences">Experiences</a></span>
-            <span className="nav-link"><a href="/projects">Projects</a></span>
-            <span className="nav-link"><a href="/about-me">Interests</a></span>
-            <span className="nav-link"><a href="/contact-me">Contact Me</a></span>
+        <nav className={styles.navbar}>
+            <span className="nav-link"><Link to="/"><strong>Peh Hou Jin</strong></Link></span>
+            <span className="nav-link" id="experiences"><Link to="/education-and-experiences">Experiences</Link></span>
+            <span className="nav-link" id="projects"><Link to="/projects">Projects</Link></span>
+            <span className="nav-link" id="interests"><Link to="/interests">Interests</Link></span>
+            <span className="nav-link" id="contact"><Link to="contact-me">Contact Me</Link></span>
         </nav>
     );
 }
