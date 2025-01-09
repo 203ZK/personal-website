@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import styles from "../styles/section.module.css";
 
-function Section({ title, link }) {
+function Section({ title, link, target }) {
     return (
-        <Link to={link} className={styles.sectionLink}>{title}</Link>
+        <Link to={link} className={styles.sectionLink} target={target}>{title}</Link>
     );
 }
 

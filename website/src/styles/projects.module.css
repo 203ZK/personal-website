@@ -4,12 +4,16 @@ body {
     box-sizing: border-box;
 }
 
-.projectsIntro {
-    font-size: 1.2em;
-    margin: 0 50px;
+.projectsPageContainer {
+    margin: 0 20px;
 }
 
-/* Project styling */
+.projectsIntro {
+    font-size: 1.2em;
+    max-width: 1200px;
+    margin: 5vh auto;
+}
+
 .projectsGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);

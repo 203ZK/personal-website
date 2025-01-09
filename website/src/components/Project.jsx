@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 import styles from "../styles/project-link.module.css"
 
-function Project({ source, title }) {
+function Project({ projectLink, source, title }) {
     return (
         <div className={styles.project}>
-            <img src={source} className={styles.thumbnail} />
+            <Link to={projectLink}><img src={source} className={styles.thumbnail} /></Link>
             <p className={styles.projectTitle}>{title}</p>
         </div>
     );
