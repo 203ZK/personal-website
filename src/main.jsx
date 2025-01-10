@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 import HomePage from './components/pages/HomePage.jsx'
 import Experiences from "./components/pages/Experiences.jsx"
@@ -13,7 +13,7 @@ import HDB from './components/project-pages/HDB.jsx'
 import TodoList from './components/project-pages/TodoList.jsx'
 import BusStopNavigator from './components/project-pages/BusStopNavigator.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <HomePage />
