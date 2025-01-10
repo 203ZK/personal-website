@@ -32,3 +32,44 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.otherMedia {
+    margin: 20px auto;
+    width: max-content;
+}
+
+.mediaText {
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.logoBtn { 
+    display: inline-block;
+    width: fit-content;
+    border: transparent;
+    padding: 7px 10px;
+    margin: 0 10px;
+}
+
+.logoBtn:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 26px;
+    max-height: 20px;
+    margin-right: 3px;
+}
+
+.logo, .logoText {
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.logoText:hover {
+    text-decoration: none;
+}

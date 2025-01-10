@@ -16,4 +16,5 @@
 .sectionLink:hover {
     background-color: rgb(0, 63, 126);
     color: white;
+    cursor: pointer;
 }
