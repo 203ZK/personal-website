@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router'
 
 import HomePage from './components/pages/HomePage.jsx'
 import Experiences from "./components/pages/Experiences.jsx"

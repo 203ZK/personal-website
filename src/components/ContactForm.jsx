@@ -1,5 +1,4 @@
 import emailjs from "emailjs-com";
-import Section from "./Section";
 
 import styles from "../styles/contact-me.module.css";
 
