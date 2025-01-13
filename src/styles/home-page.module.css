@@ -71,6 +71,10 @@ body {
     vertical-align: middle;
 }
 
+.logoText {
+    color: black;
+}
+
 .logoText:hover {
     text-decoration: none;
 }

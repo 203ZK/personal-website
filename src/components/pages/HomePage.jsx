@@ -29,14 +29,20 @@ function HomePage() {
 
             <div className={styles.otherMedia}>
                 <span className={styles.mediaText}>Check out my other platforms here: </span>
-                <div className={styles.logoBtn}>
-                    <a href="https://github.com/203ZK" target="_blank"><img src={ghLogo} className={styles.logo} alt="GitHub logo" /></a>
-                    <span className={styles.logoText}>GitHub</span>
-                </div>
-                <div className={styles.logoBtn}>
-                    <a href="https://www.linkedin.com/in/peh-hou-jin-9317921a9/" target="_blank"><img src={liLogo} className={styles.logo} alt="LinkedIn logo" /></a>
-                    <span className={styles.logoText}>LinkedIn</span>
-                </div>
+
+                <a href="https://github.com/203ZK" target="_blank">
+                    <div className={styles.logoBtn}>
+                        <img src={ghLogo} className={styles.logo} alt="GitHub logo" />
+                        <span className={styles.logoText}>GitHub</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/peh-hou-jin-9317921a9/" target="_blank">
+                    <div className={styles.logoBtn}>
+                        <img src={liLogo} className={styles.logo} alt="LinkedIn logo" />
+                        <span className={styles.logoText}>LinkedIn</span>
+                    </div>
+                </a>
             </div>
         </>
     );

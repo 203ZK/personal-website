@@ -22,7 +22,6 @@ function DefaultProfile() {
                 <Project projectLink="todo-list" source={todoThumbnail} title="To-Do-List" />
                 <Project projectLink="bus-stop-navigator" source={busThumbnail} title="Bus Stop Navigator" />
                 <Project projectLink="/" source={websiteThumbnail} title="Personal Website" />
-                {/* <Project source="../media/new.png" title="" /> */}
             </div>
         </div>
     );

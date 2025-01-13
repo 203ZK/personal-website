@@ -21,6 +21,7 @@
 
 .projectGif {
     display: block;
+    width: 100%;
     max-width: 400px;
     margin: 40px auto 0 auto;
 }
@@ -41,4 +42,15 @@
 
 .odinLink:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .projectGif {
+        max-width: 300px;
+    }
+
+    .returnSection {
+        display: flex;
+        flex-direction: column;
+    }
 }
