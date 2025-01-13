@@ -13,7 +13,7 @@ function HomePage() {
             <Navbar />
 
             <div className={styles.intro}>
-                <a href={pdf} without rel="noopener noreferrer" target="_blank"><img id={styles.profilePic} src={pic} alt="profile picture" /></a>
+                <a href={pdf} without="true" rel="noopener noreferrer" target="_blank"><img id={styles.profilePic} src={pic} alt="profile picture" /></a>
                 <p className={styles.introText}>
                     Hi! I'm <strong>Hou Jin</strong>, a Computer Science student at the National University of Singapore. 
                     <br/><br/>

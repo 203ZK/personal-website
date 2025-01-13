@@ -9,6 +9,12 @@
     font-size: min(2.5vw, 20px);
 }
 
+@media screen and (max-width: 700px) {
+    .navbar {
+        font-size: 16px;
+    }
+}
+
 span {
     margin: auto;
     transition: text-decoration 100ms ease;
